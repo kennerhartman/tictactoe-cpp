@@ -3,9 +3,9 @@
 // Licensed under the MIT license. See LICENSE.md file in the project root for details.
 //
 
+// next to linee necessary for inputting and outputtingl; 
+// 'using namespace std' makes it so I do not have to type out 'std::cout' and 'std::cin' for console I/O
 #include <iostream>
-
-
 using namespace std;
 
 // the functions below are called up here so I can keep all of their code and logic below 'int main()'
@@ -155,7 +155,6 @@ int placeXorO(char* board, char* player, int input) {
         }
     }
 }
-
 
 // check if the board is in a winning gamestate
 void checkWin(char* board) {
